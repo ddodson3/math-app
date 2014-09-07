@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QuestionViewController.h
 //  Math Questions
 //
 //  Created by Dan Dodson on 9/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface QuestionViewController : UIViewController
 
 @end

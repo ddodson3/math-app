@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Six Sigma. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BeginViewController.h"
 
-@interface ViewController ()
+@interface BeginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BeginViewController
 
 - (void)viewDidLoad
 {
