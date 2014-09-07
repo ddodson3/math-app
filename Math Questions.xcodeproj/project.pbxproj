@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A959076A19BD072A00D9F5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959076919BD072A00D9F5C2 /* Foundation.framework */; };
+		A959076C19BD072A00D9F5C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959076B19BD072A00D9F5C2 /* CoreGraphics.framework */; };
+		A959076E19BD072A00D9F5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959076D19BD072A00D9F5C2 /* UIKit.framework */; };
+		A959077419BD072A00D9F5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A959077219BD072A00D9F5C2 /* InfoPlist.strings */; };
+		A959077619BD072A00D9F5C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A959077519BD072A00D9F5C2 /* main.m */; };
+		A959077A19BD072A00D9F5C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A959077919BD072A00D9F5C2 /* AppDelegate.m */; };
+		A959077D19BD072A00D9F5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A959077B19BD072A00D9F5C2 /* Main.storyboard */; };
+		A959078019BD072A00D9F5C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A959077F19BD072A00D9F5C2 /* ViewController.m */; };
+		A959078219BD072A00D9F5C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A959078119BD072A00D9F5C2 /* Images.xcassets */; };
+		A959078919BD072A00D9F5C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959078819BD072A00D9F5C2 /* XCTest.framework */; };
+		A959078A19BD072A00D9F5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959076919BD072A00D9F5C2 /* Foundation.framework */; };
+		A959078B19BD072A00D9F5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959076D19BD072A00D9F5C2 /* UIKit.framework */; };
+		A959079319BD072A00D9F5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A959079119BD072A00D9F5C2 /* InfoPlist.strings */; };
+		A959079519BD072A00D9F5C2 /* Math_QuestionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A959079419BD072A00D9F5C2 /* Math_QuestionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A959078C19BD072A00D9F5C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A959075E19BD072A00D9F5C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A959076519BD072A00D9F5C2;
+			remoteInfo = "Math Questions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A959076619BD072A00D9F5C2 /* Math Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959076919BD072A00D9F5C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A959076B19BD072A00D9F5C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A959076D19BD072A00D9F5C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A959077119BD072A00D9F5C2 /* Math Questions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Math Questions-Info.plist"; sourceTree = "<group>"; };
+		A959077319BD072A00D9F5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A959077519BD072A00D9F5C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A959077719BD072A00D9F5C2 /* Math Questions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Math Questions-Prefix.pch"; sourceTree = "<group>"; };
+		A959077819BD072A00D9F5C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A959077919BD072A00D9F5C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A959077C19BD072A00D9F5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A959077E19BD072A00D9F5C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A959077F19BD072A00D9F5C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A959078119BD072A00D9F5C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A959078719BD072A00D9F5C2 /* Math QuestionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Math QuestionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959078819BD072A00D9F5C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A959079019BD072A00D9F5C2 /* Math QuestionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Math QuestionsTests-Info.plist"; sourceTree = "<group>"; };
+		A959079219BD072A00D9F5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A959079419BD072A00D9F5C2 /* Math_QuestionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Math_QuestionsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A959076319BD072A00D9F5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959076C19BD072A00D9F5C2 /* CoreGraphics.framework in Frameworks */,
+				A959076E19BD072A00D9F5C2 /* UIKit.framework in Frameworks */,
+				A959076A19BD072A00D9F5C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959078419BD072A00D9F5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959078919BD072A00D9F5C2 /* XCTest.framework in Frameworks */,
+				A959078B19BD072A00D9F5C2 /* UIKit.framework in Frameworks */,
+				A959078A19BD072A00D9F5C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A959075D19BD072A00D9F5C2 = {
+			isa = PBXGroup;
+			children = (
+				A959076F19BD072A00D9F5C2 /* Math Questions */,
+				A959078E19BD072A00D9F5C2 /* Math QuestionsTests */,
+				A959076819BD072A00D9F5C2 /* Frameworks */,
+				A959076719BD072A00D9F5C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A959076719BD072A00D9F5C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A959076619BD072A00D9F5C2 /* Math Questions.app */,
+				A959078719BD072A00D9F5C2 /* Math QuestionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A959076819BD072A00D9F5C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A959076919BD072A00D9F5C2 /* Foundation.framework */,
+				A959076B19BD072A00D9F5C2 /* CoreGraphics.framework */,
+				A959076D19BD072A00D9F5C2 /* UIKit.framework */,
+				A959078819BD072A00D9F5C2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A959076F19BD072A00D9F5C2 /* Math Questions */ = {
+			isa = PBXGroup;
+			children = (
+				A959077819BD072A00D9F5C2 /* AppDelegate.h */,
+				A959077919BD072A00D9F5C2 /* AppDelegate.m */,
+				A959077B19BD072A00D9F5C2 /* Main.storyboard */,
+				A959077E19BD072A00D9F5C2 /* ViewController.h */,
+				A959077F19BD072A00D9F5C2 /* ViewController.m */,
+				A959078119BD072A00D9F5C2 /* Images.xcassets */,
+				A959077019BD072A00D9F5C2 /* Supporting Files */,
+			);
+			path = "Math Questions";
+			sourceTree = "<group>";
+		};
+		A959077019BD072A00D9F5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A959077119BD072A00D9F5C2 /* Math Questions-Info.plist */,
+				A959077219BD072A00D9F5C2 /* InfoPlist.strings */,
+				A959077519BD072A00D9F5C2 /* main.m */,
+				A959077719BD072A00D9F5C2 /* Math Questions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A959078E19BD072A00D9F5C2 /* Math QuestionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A959079419BD072A00D9F5C2 /* Math_QuestionsTests.m */,
+				A959078F19BD072A00D9F5C2 /* Supporting Files */,
+			);
+			path = "Math QuestionsTests";
+			sourceTree = "<group>";
+		};
+		A959078F19BD072A00D9F5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A959079019BD072A00D9F5C2 /* Math QuestionsTests-Info.plist */,
+				A959079119BD072A00D9F5C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A959076519BD072A00D9F5C2 /* Math Questions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959079819BD072A00D9F5C2 /* Build configuration list for PBXNativeTarget "Math Questions" */;
+			buildPhases = (
+				A959076219BD072A00D9F5C2 /* Sources */,
+				A959076319BD072A00D9F5C2 /* Frameworks */,
+				A959076419BD072A00D9F5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Math Questions";
+			productName = "Math Questions";
+			productReference = A959076619BD072A00D9F5C2 /* Math Questions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A959078619BD072A00D9F5C2 /* Math QuestionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A959079B19BD072A00D9F5C2 /* Build configuration list for PBXNativeTarget "Math QuestionsTests" */;
+			buildPhases = (
+				A959078319BD072A00D9F5C2 /* Sources */,
+				A959078419BD072A00D9F5C2 /* Frameworks */,
+				A959078519BD072A00D9F5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A959078D19BD072A00D9F5C2 /* PBXTargetDependency */,
+			);
+			name = "Math QuestionsTests";
+			productName = "Math QuestionsTests";
+			productReference = A959078719BD072A00D9F5C2 /* Math QuestionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A959075E19BD072A00D9F5C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Six Sigma";
+				TargetAttributes = {
+					A959078619BD072A00D9F5C2 = {
+						TestTargetID = A959076519BD072A00D9F5C2;
+					};
+				};
+			};
+			buildConfigurationList = A959076119BD072A00D9F5C2 /* Build configuration list for PBXProject "Math Questions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A959075D19BD072A00D9F5C2;
+			productRefGroup = A959076719BD072A00D9F5C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A959076519BD072A00D9F5C2 /* Math Questions */,
+				A959078619BD072A00D9F5C2 /* Math QuestionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A959076419BD072A00D9F5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959078219BD072A00D9F5C2 /* Images.xcassets in Resources */,
+				A959077419BD072A00D9F5C2 /* InfoPlist.strings in Resources */,
+				A959077D19BD072A00D9F5C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959078519BD072A00D9F5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959079319BD072A00D9F5C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A959076219BD072A00D9F5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959078019BD072A00D9F5C2 /* ViewController.m in Sources */,
+				A959077A19BD072A00D9F5C2 /* AppDelegate.m in Sources */,
+				A959077619BD072A00D9F5C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A959078319BD072A00D9F5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A959079519BD072A00D9F5C2 /* Math_QuestionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A959078D19BD072A00D9F5C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A959076519BD072A00D9F5C2 /* Math Questions */;
+			targetProxy = A959078C19BD072A00D9F5C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A959077219BD072A00D9F5C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A959077319BD072A00D9F5C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A959077B19BD072A00D9F5C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A959077C19BD072A00D9F5C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A959079119BD072A00D9F5C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A959079219BD072A00D9F5C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A959079619BD072A00D9F5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A959079719BD072A00D9F5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A959079919BD072A00D9F5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Questions/Math Questions-Prefix.pch";
+				INFOPLIST_FILE = "Math Questions/Math Questions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A959079A19BD072A00D9F5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Questions/Math Questions-Prefix.pch";
+				INFOPLIST_FILE = "Math Questions/Math Questions-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A959079C19BD072A00D9F5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Math Questions.app/Math Questions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Questions/Math Questions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Math QuestionsTests/Math QuestionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A959079D19BD072A00D9F5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Math Questions.app/Math Questions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Questions/Math Questions-Prefix.pch";
+				INFOPLIST_FILE = "Math QuestionsTests/Math QuestionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A959076119BD072A00D9F5C2 /* Build configuration list for PBXProject "Math Questions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959079619BD072A00D9F5C2 /* Debug */,
+				A959079719BD072A00D9F5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A959079819BD072A00D9F5C2 /* Build configuration list for PBXNativeTarget "Math Questions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959079919BD072A00D9F5C2 /* Debug */,
+				A959079A19BD072A00D9F5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A959079B19BD072A00D9F5C2 /* Build configuration list for PBXNativeTarget "Math QuestionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A959079C19BD072A00D9F5C2 /* Debug */,
+				A959079D19BD072A00D9F5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A959075E19BD072A00D9F5C2 /* Project object */;
+}
