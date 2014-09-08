@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface QuestionViewController : UIViewController
+@property NSEnumerator *questions;
+@property NSNumber *answer;
 
 @end
