@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos; display=&quot;block&quot; margin=&quot;0 auto&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;23&lt;/mn&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;</string>
+		<integer>27</integer>
+	</array>
+	<array>
+		<string>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos; display=&quot;block&quot; margin=&quot;0 auto&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mfrac&gt;
+   &lt;mn&gt;1&lt;/mn&gt;
+   &lt;mn&gt;3&lt;/mn&gt;
+  &lt;/mfrac&gt;
+  &lt;mo&gt;&amp;#8290;&lt;/mo&gt;
+  &lt;msup&gt;
+   &lt;mrow&gt;
+    &lt;mo&gt;(&lt;/mo&gt;
+    &lt;mrow&gt;
+     &lt;msqrt&gt;
+      &lt;mn&gt;4&lt;/mn&gt;
+     &lt;/msqrt&gt;
+     &lt;mo&gt;+&lt;/mo&gt;
+     &lt;msqrt&gt;
+      &lt;mn&gt;9&lt;/mn&gt;
+     &lt;/msqrt&gt;
+     &lt;mo&gt;+&lt;/mo&gt;
+     &lt;msqrt&gt;
+      &lt;mn&gt;16&lt;/mn&gt;
+     &lt;/msqrt&gt;
+    &lt;/mrow&gt;
+    &lt;mo&gt;)&lt;/mo&gt;
+   &lt;/mrow&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msup&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;</string>
+		<integer>27</integer>
+	</array>
+	<array>
+		<string>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos; display=&quot;block&quot; margin=&quot;0 auto&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mrow&gt;
+   &lt;mo&gt;-&lt;/mo&gt;
+   &lt;mfrac&gt;
+    &lt;mn&gt;9&lt;/mn&gt;
+    &lt;mn&gt;13&lt;/mn&gt;
+   &lt;/mfrac&gt;
+  &lt;/mrow&gt;
+  &lt;mo&gt;&amp;#8290;&lt;/mo&gt;
+  &lt;mrow&gt;
+   &lt;mo&gt;(&lt;/mo&gt;
+   &lt;mrow&gt;
+    &lt;mfrac&gt;
+      &lt;mn&gt;7&lt;/mn&gt;
+      &lt;mn&gt;23&lt;/mn&gt;
+	&lt;/mfrac&gt;
+	&lt;mo&gt;&amp;#215;&lt;/mo&gt;
+	&lt;mfrac&gt;
+      &lt;mn&gt;23&lt;/mn&gt;
+      &lt;mn&gt;7&lt;/mn&gt;
+	&lt;/mfrac&gt;
+    &lt;mo&gt;+&lt;/mo&gt;
+    &lt;mn&gt;11&lt;/mn&gt;
+    &lt;mo&gt;-&lt;/mo&gt;
+    &lt;mn&gt;51&lt;/mn&gt;
+   &lt;/mrow&gt;
+   &lt;mo&gt;)&lt;/mo&gt;
+  &lt;/mrow&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;</string>
+		<integer>27</integer>
+	</array>
+	<array>
+		<string>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos; display=&quot;block&quot; margin=&quot;0 auto&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;1&lt;/mn&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;1&lt;/mn&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;1&lt;/mn&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;1&lt;/mn&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;24&lt;/mn&gt;
+  &lt;mo&gt;-&lt;/mo&gt;
+  &lt;mn&gt;5&lt;/mn&gt;
+  &lt;mo&gt;+&lt;/mo&gt;
+  &lt;mn&gt;4&lt;/mn&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;</string>
+		<integer>27</integer>
+	</array>
+	<array>
+		<string>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos; display=&quot;block&quot; margin=&quot;0 auto&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mn&gt;9&lt;/mn&gt;
+  &lt;mo&gt;&amp;#215;&lt;/mo&gt;
+  &lt;msqrt&gt;
+   &lt;mn&gt;9&lt;/mn&gt;
+  &lt;/msqrt&gt;
+ &lt;/mrow&gt;
+&lt;/math&gt;</string>
+		<integer>27</integer>
+	</array>
+	<array>
+		<string>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos; display=&quot;block&quot; margin=&quot;0 auto&quot;&gt;
+ &lt;mrow&gt;
+  &lt;mi&gt;Ln&lt;/mi&gt;
+  &lt;mo&gt;(&lt;/mo&gt;
+  &lt;msup&gt;
+  	&lt;mi&gt;e&lt;/mi&gt;
+   &lt;mrow&gt;
+   	&lt;mo&gt;(&lt;/mo&gt;
+    &lt;mn&gt;5&lt;/mn&gt;
+    &lt;mo&gt;+&lt;/mo&gt;
+    &lt;mn&gt;9&lt;/mn&gt;
+    &lt;mo&gt;+&lt;/mo&gt;
+    &lt;mn&gt;13&lt;/mn&gt;
+    &lt;mo&gt;)&lt;/mo&gt;
+   &lt;/mrow&gt;
+   &lt;/msup&gt;
+  &lt;mo&gt;)&lt;/mo&gt;
+&lt;/mrow&gt;
+&lt;/math&gt;</string>
+		<integer>27</integer>
+	</array>
+</array>
+</plist>

@@ -1,13 +1,12 @@
 //
-//  ViewController.m
+//  BeginViewController.m
 //  Math Questions
 //
-//  Created by Dan Dodson on 9/7/14.
+//  Created by Dan Dodson on 9/14/14.
 //  Copyright (c) 2014 Six Sigma. All rights reserved.
 //
 
 #import "BeginViewController.h"
-#import "QuestionViewController.h"
 
 @interface BeginViewController ()
 
@@ -15,18 +14,13 @@
 
 @implementation BeginViewController
 
-NSArray *questions;
-NSEnumerator *questionHandler;
-NSNumber *answer;
+- (IBAction)restart:(UIStoryboardSegue *)sender {
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    questions = [NSArray arrayWithObjects: @"Test1", @"Test2", @"Test3", nil];
-    answer = [NSNumber numberWithDouble: 27];
-    questionHandler = questions.objectEnumerator;
-    // add error handling if data isnt found
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,12 +28,16 @@ NSNumber *answer;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier isEqualToString:@"beginQuestions"]) {
-        QuestionViewController *controller = (QuestionViewController *) segue.destinationViewController;
-        controller.questions = questionHandler;
-        controller.answer = answer;
-    }
-    
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+*/
+
 @end
