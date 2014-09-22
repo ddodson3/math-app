@@ -60,7 +60,7 @@
     
     answerQueue = [[NSOperationQueue alloc] init];
     
-    NSArray *data = [NSArray arrayWithContentsOfCSVURL: [[NSBundle mainBundle] URLForResource:@"questionList" withExtension:@"csv"]];
+    NSArray *data = [NSArray arrayWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"equations" ofType:@"plist"]];
     questions = [[NSMutableArray alloc] init];
     for (NSArray *line in data) {
         if (line.count == 2) {

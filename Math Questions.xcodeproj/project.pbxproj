@@ -22,7 +22,6 @@
 		A959079519BD072A00D9F5C2 /* Math_QuestionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A959079419BD072A00D9F5C2 /* Math_QuestionsTests.m */; };
 		A95907A019BD177700D9F5C2 /* AnswerVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A959079F19BD177700D9F5C2 /* AnswerVIewController.m */; };
 		A9C1E61019BE168B00604756 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1E60F19BE168B00604756 /* Question.m */; };
-		A9C1F3AF19BE28D40043536E /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1F3AE19BE28D40043536E /* CHCSVParser.m */; };
 		A9C1F3B519BFA3BB0043536E /* questionList.csv in Resources */ = {isa = PBXBuildFile; fileRef = A9C1F3B419BFA3BB0043536E /* questionList.csv */; };
 		A9C1F3B819BFB69D0043536E /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1F3B719BFB69D0043536E /* QuestionViewController.m */; };
 		A9C8238319C69B5800F99A18 /* BeginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8238219C69B5800F99A18 /* BeginViewController.m */; };
@@ -61,8 +60,6 @@
 		A959079F19BD177700D9F5C2 /* AnswerVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerVIewController.m; sourceTree = "<group>"; };
 		A9C1E60E19BE168B00604756 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		A9C1E60F19BE168B00604756 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		A9C1F3AD19BE28D40043536E /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
-		A9C1F3AE19BE28D40043536E /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		A9C1F3B419BFA3BB0043536E /* questionList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionList.csv; sourceTree = "<group>"; };
 		A9C1F3B619BFB69D0043536E /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		A9C1F3B719BFB69D0043536E /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
@@ -143,8 +140,6 @@
 				A9C8238219C69B5800F99A18 /* BeginViewController.m */,
 				A959079E19BD177700D9F5C2 /* AnswerViewController.h */,
 				A959079F19BD177700D9F5C2 /* AnswerVIewController.m */,
-				A9C1F3AD19BE28D40043536E /* CHCSVParser.h */,
-				A9C1F3AE19BE28D40043536E /* CHCSVParser.m */,
 				A9C1E60E19BE168B00604756 /* Question.h */,
 				A9C1E60F19BE168B00604756 /* Question.m */,
 				A959078119BD072A00D9F5C2 /* Images.xcassets */,
@@ -283,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C1F3AF19BE28D40043536E /* CHCSVParser.m in Sources */,
 				A959077A19BD072A00D9F5C2 /* AppDelegate.m in Sources */,
 				A9C8238319C69B5800F99A18 /* BeginViewController.m in Sources */,
 				A9C1E61019BE168B00604756 /* Question.m in Sources */,
