@@ -22,7 +22,6 @@
 		A959079519BD072A00D9F5C2 /* Math_QuestionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A959079419BD072A00D9F5C2 /* Math_QuestionsTests.m */; };
 		A95907A019BD177700D9F5C2 /* AnswerVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A959079F19BD177700D9F5C2 /* AnswerVIewController.m */; };
 		A9C1E61019BE168B00604756 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1E60F19BE168B00604756 /* Question.m */; };
-		A9C1F3B519BFA3BB0043536E /* questionList.csv in Resources */ = {isa = PBXBuildFile; fileRef = A9C1F3B419BFA3BB0043536E /* questionList.csv */; };
 		A9C1F3B819BFB69D0043536E /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C1F3B719BFB69D0043536E /* QuestionViewController.m */; };
 		A9C8238319C69B5800F99A18 /* BeginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C8238219C69B5800F99A18 /* BeginViewController.m */; };
 /* End PBXBuildFile section */
@@ -60,7 +59,6 @@
 		A959079F19BD177700D9F5C2 /* AnswerVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerVIewController.m; sourceTree = "<group>"; };
 		A9C1E60E19BE168B00604756 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		A9C1E60F19BE168B00604756 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
-		A9C1F3B419BFA3BB0043536E /* questionList.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questionList.csv; sourceTree = "<group>"; };
 		A9C1F3B619BFB69D0043536E /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
 		A9C1F3B719BFB69D0043536E /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 		A9C8236119C68E4E00F99A18 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -151,7 +149,6 @@
 		A959077019BD072A00D9F5C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9C1F3B419BFA3BB0043536E /* questionList.csv */,
 				A9009F3319CFAC9F00323EB5 /* equations.plist */,
 				A959077119BD072A00D9F5C2 /* Math Questions-Info.plist */,
 				A959077219BD072A00D9F5C2 /* InfoPlist.strings */,
@@ -257,7 +254,6 @@
 			files = (
 				A959078219BD072A00D9F5C2 /* Images.xcassets in Resources */,
 				A959077419BD072A00D9F5C2 /* InfoPlist.strings in Resources */,
-				A9C1F3B519BFA3BB0043536E /* questionList.csv in Resources */,
 				A9009F3419CFAC9F00323EB5 /* equations.plist in Resources */,
 				A959077D19BD072A00D9F5C2 /* Main.storyboard in Resources */,
 			);
