@@ -102,29 +102,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YyY-4p-taG">
-                                <rect key="frame" x="0.0" y="214" width="320" height="51"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pi9-NM-Uqd">
-                                <rect key="frame" x="20" y="171" width="280" height="138"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pi9-NM-Uqd">
+                                <rect key="frame" x="0.0" y="171" width="320" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="YyY-4p-taG" secondAttribute="centerX" id="1Pr-dg-4sf"/>
-                            <constraint firstItem="YyY-4p-taG" firstAttribute="leading" secondItem="siB-sH-TBL" secondAttribute="leading" id="8kG-tr-y8W"/>
-                            <constraint firstAttribute="centerY" secondItem="YyY-4p-taG" secondAttribute="centerY" constant="0.5" id="ZDn-MS-kmx"/>
+                            <constraint firstItem="Pi9-NM-Uqd" firstAttribute="leading" secondItem="siB-sH-TBL" secondAttribute="leading" id="f8I-ir-Kir"/>
+                            <constraint firstItem="h8H-oG-bGq" firstAttribute="top" secondItem="Pi9-NM-Uqd" secondAttribute="bottom" constant="171" id="frU-aO-Jfj"/>
+                            <constraint firstAttribute="trailing" secondItem="Pi9-NM-Uqd" secondAttribute="trailing" id="oId-TF-xKy"/>
+                            <constraint firstItem="Pi9-NM-Uqd" firstAttribute="top" secondItem="kHY-6F-Ebp" secondAttribute="bottom" constant="151" id="q8M-AW-Fl5"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="equationBox" destination="Pi9-NM-Uqd" id="S87-cW-XuV"/>
-                        <outlet property="questionBox" destination="YyY-4p-taG" id="QyV-pM-8Aw"/>
                         <segue destination="JtB-93-glV" kind="modal" identifier="showAnswerBox" id="dCc-69-6Sx"/>
                         <segue destination="9N4-no-klg" kind="unwind" identifier="restart" unwindAction="restart:" id="TwJ-4U-aFz"/>
                     </connections>

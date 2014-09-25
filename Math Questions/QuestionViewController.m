@@ -16,7 +16,6 @@
     NSOperationQueue *answerQueue;
 }
 @property (weak, nonatomic) IBOutlet UIWebView *equationBox;
-@property (weak, nonatomic) IBOutlet UITextView *questionBox;
 @end
 
 @implementation QuestionViewController
