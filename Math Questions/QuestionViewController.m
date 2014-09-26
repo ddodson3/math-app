@@ -83,9 +83,9 @@
 }
 
 - (void)recordAnswer:(NSString *)answer forUser:(NSInteger *)user isCorrect:(BOOL)correct time:(NSString *)time {
-    NSString *post = [NSString stringWithFormat: @"user=%d&answer=%@&correct=%d&time=%@", *user, answer, correct, time];
+    NSString *post = [NSString stringWithFormat: @"user=%ld&answer=%@&correct=%d&time=%@", (long)*user, answer, correct, time];
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
-    NSString *postLength = [NSString stringWithFormat:@"%d", postData.length];
+    NSString *postLength = [NSString stringWithFormat:@"%lu", (unsigned long)postData.length];
     NSURL *url = [NSURL URLWithString:@"http://six-sigma.dandodson.com/api/v1/answers"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
     [request setHTTPMethod:@"POST"];
@@ -94,7 +94,7 @@
     [request setHTTPBody:postData];
     
     [NSURLConnection sendAsynchronousRequest:request queue:answerQueue completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-        int statusCode = 0;
+        long statusCode = 0;
         if ([response isKindOfClass: [NSHTTPURLResponse class]])
             statusCode = [(NSHTTPURLResponse*) response statusCode];
         if (connectionError) {
