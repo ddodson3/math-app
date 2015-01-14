@@ -41,6 +41,8 @@
     BOOL correctAnswer;
     NSInteger defaultUser = 1;
     
+    [self loadQuestion];
+    
     if ([currentQuestion checkStringAnswer:_answer] ) {
         correctAnswer = YES;
     } else  {
@@ -48,7 +50,6 @@
     }
     
     [self recordAnswer:_answer forUser:&defaultUser isCorrect:correctAnswer time:_time];
-    [self loadQuestion];
     [self waitToLoadAnswer];
 }
 
